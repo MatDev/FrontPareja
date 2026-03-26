@@ -1,0 +1,43 @@
+export const darkColors = {
+  primary: '#FF4D6D',
+  secondary: '#FF8FA3',
+  accent: '#C9184A',
+  surface: '#1E1E1E',
+  surfaceElevated: '#252525',
+  background: '#121212',
+  text: '#F5F5F5',
+  textSecondary: '#9E9E9E',
+  textDisabled: '#616161',
+  border: '#2D2D2D',
+  divider: '#1F1F1F',
+  error: '#FF6B6B',
+  success: '#66BB6A',
+  warning: '#FFA726',
+  overlay: 'rgba(0,0,0,0.6)',
+  card: '#1A1A1A',
+  inputBackground: '#242424',
+  tabBar: '#161616',
+} as const;
+
+export const lightColors = {
+  primary: '#E94E77',
+  secondary: '#F7A1B5',
+  accent: '#B83250',
+  surface: '#FFFFFF',
+  surfaceElevated: '#FAFAFA',
+  background: '#FFF5F7',
+  text: '#4A4A4A',
+  textSecondary: '#8A8A8A',
+  textDisabled: '#C0C0C0',
+  border: '#F0D0D8',
+  divider: '#FAE8EC',
+  error: '#E53935',
+  success: '#43A047',
+  warning: '#FB8C00',
+  overlay: 'rgba(0,0,0,0.4)',
+  card: '#FFFFFF',
+  inputBackground: '#FFF0F3',
+  tabBar: '#FFFFFF',
+} as const;
+
+export type ColorScheme = typeof darkColors;
